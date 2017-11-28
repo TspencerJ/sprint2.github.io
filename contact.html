@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="StudentFoods Contact">
+<meta name="keywords" content="Student, Food, Recipe, StudentFood, Shopping, Shop, Cookbook">
+<nav style="background-color:white; color:black; padding:20px; font-size:150%">
+  <a href="/homePage"> Home |</a>
+  <a href="/activitiesPage"> Activities |</a>
+  <a href="/recipePage"> Recipes |</a>
+  <a href="/shopPage"> Shop |</a>
+  <a href="/newsPage"> News |</a>
+  <a href="/signUpPage"> Sign-Up |</a>
+</nav>
+   <style>
+  body {background-color: #ace2bc;}
+  h1 {color: black; font-family:verdana; font-size:300% }
+  h2 {color: black; font-family:verdana;} 
+  h2 {color: black; font-family:verdana;} 
+  p {color: black; font-family:calibri;}
+</style>
+<title>Contact US</title>
+</head>
+<body>
+<header>
+<h1 style="text-align:center;">StudentFoods</h1>
+<hr>
+</header>
+
+<h2>Contact Information</h1>
+<p>Email : studentfoods@gmail.com</p>
+<p>Tel : 0800 566 455
+<h3> Why not leave us a review? </h3>
+<form action="/review" method="get">
+	<fieldset>
+		<legend>Your Details:</legend>
+		<label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br>
+		<label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br>
+	</fieldset><br>
+	<fieldset>
+		<legend>Your Review:</legend>
+		<p>
+			<label for="hear-about">How did you hear about us?</label>
+			<select name="referrer" id="hear-about">
+				<option value="google">Google</option>
+				<option value="friend">Friend</option>
+				<option value="advert">Advert</option>
+				<option value="other">Other</option>
+			</select>
+		</p>
+		<p>
+			Would you visit again?<br>
+			<label><input type="radio" name="rating" value="yes"></label>
+			<label><input type="radio" name="rating" value="no"></label>
+			<label><input type="radio" name="rating" value="maybe"></label>
+		</p>
+		<p>
+			<label for="comments">Comments:</label><br>
+			<textarea rows="4" cols="40" id="comments"></textarea>
+		</p>
+		<label><input type="checkbox" name="subscribe" checked="checked"> Sign me up for email updates</label><br>
+		<input type="submit" value="Submit review">
+	</fieldset>
+</form>
+
+
+
+<footer>
+<p style="text-align:center;"><a href="/about"> About |</a><a href="/contact"> Contact Us</a><p>
+<p style="text-align:center;">StudentFoods © 2017</p>
+</footer>
+
+</body>
+</html>
