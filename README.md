@@ -1,2 +1,0 @@
-# tspencerj.github.io
-hello
