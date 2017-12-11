@@ -16,24 +16,27 @@
   		<a href="/newsPage"> News |</a>
   		<a href="/signUpPage"> Sign-Up |</a>
 	</nav>
-<header>
-<h1 style="text-align:center;">StudentFoods</h1>
-<hr>
-</header>
+	<header>
 
-<h2>Contact Information</h2>
-<p>Email : studentfoods@gmail.com</p>
-<p>Tel : 0800 566 455
-<h3> Why not leave us a review? </h3>
+		<h1 style="text-align:center; color: black; font-family:verdana; font-size:300% ">StudentFoods</h1>
+
+		<hr>
+
+	</header>
+
+<h2 style="color: black; font-family:verdana;">Contact Information</h2>
+<p style="color: black; font-family:calibri;">Email : studentfoods@gmail.com</p>
+<p style="color: black; font-family:calibri;">Tel : 0800 566 455
+<h3 style="color: black; font-family:verdana;"> Why not leave us a review? </h3>
 <form action="/review" method="get">
 	<fieldset>
-		<legend>Your Details:</legend>
-		<label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br>
-		<label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br>
+		<legend style="color: black; font-family:calibri;">Your Details:</legend>
+		<label style="color: black; font-family:calibri;">Name: <input type="text" name="name" size="30" maxlength="100"></label><br>
+		<label style="color: black; font-family:calibri;">Email: <input type="email" name="email" size="30" maxlength="100"></label><br>
 	</fieldset><br>
 	<fieldset>
-		<legend>Your Review:</legend>
-		<p>
+		<legend style="color: black; font-family:calibri;">Your Review:</legend>
+		<p style="color: black; font-family:calibri;">
 			<label for="hear-about">How did you hear about us?</label>
 			<select name="referrer" id="hear-about">
 				<option value="google">Google</option>
@@ -42,17 +45,17 @@
 				<option value="other">Other</option>
 			</select>
 		</p>
-		<p>
+		<p style="color: black; font-family:calibri;">
 			Would you visit again?<br>
 			<label><input type="radio" name="rating" value="yes"></label>
 			<label><input type="radio" name="rating" value="no"></label>
 			<label><input type="radio" name="rating" value="maybe"></label>
 		</p>
-		<p>
+		<p style="color: black; font-family:calibri;">
 			<label for="comments">Comments:</label><br>
 			<textarea rows="4" cols="40" id="comments"></textarea>
 		</p>
-		<label><input type="checkbox" name="subscribe" checked="checked"> Sign me up for email updates</label><br>
+		<label style="color: black; font-family:calibri;"><input type="checkbox" name="subscribe" checked="checked"> Sign me up for email updates</label><br>
 		<input type="submit" value="Submit review">
 	</fieldset>
 </form>
